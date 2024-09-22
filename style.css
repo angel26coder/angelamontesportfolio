@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.linksContainer {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(212, 82, 104);
+    display: flex;
+    justify-content: end;
+}
+
+a:hover {
+    color: white;
+}
+
+header {
+    background-color: rgb(167, 138, 152);
+    height: calc(100vh - 25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mainContainer {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profilePictureContainer {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#profilePicture {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+section {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.aboutme {
+    background-color: rgb(236, 226, 233);
+}
+
+.three {
+    display: flex;
+    gap: 100px;
+}
+
+.education {
+    height: 150px;
+    width: 100%;
+}
+
+.proyects {
+    background-color: gray;
+}
+
+.getInTouch {
+    background-color: skyblue;
+}
+
+
+.child {
+    background-color: rgb(185, 161, 185);
+    height: 150%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+
+
+img {
+    width: 20px;
+}
