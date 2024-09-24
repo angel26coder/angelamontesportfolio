@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: pink;
+    background-color: rgb(201, 152, 160);
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -25,7 +25,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: rgb(212, 82, 104);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: end;
 }
@@ -63,7 +63,6 @@ header {
 #profilePicture {
     height: 100%;
     width: 100%;
-
 }
 
 
@@ -77,19 +76,67 @@ section {
     gap: 10px;
 }
 
-.aboutme {
+.aboutMe {
     background-color: rgb(236, 226, 233);
+    height: 50vh;
+    padding: 30px;
+    gap: 30px;
 }
 
-.three {
-    display: flex;
-    gap: 100px;
+.mainButton {
+    background-color: rgb(233, 50, 75);
+    font-family: monospace;
+    height: 80px;
+    width: 150px;
+    border: 10px;
+    border-radius: 50%;
 }
 
-.education {
-    height: 150px;
+.button {
+    height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+button:hover {
+    background-color: white;
+}
+
+.educationContainer {
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+    gap: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 100px;
+    width: 100vw;
+    padding: 0px 20px;
+}
+
+.cards {
+    background-color: rgb(167, 138, 152);
+    height: 150%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+
 
 .proyects {
     background-color: gray;
@@ -100,16 +147,7 @@ section {
 }
 
 
-.child {
-    background-color: rgb(185, 161, 185);
-    height: 150%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 5px 0px;
-}
+
 
 
 
