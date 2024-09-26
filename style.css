@@ -5,6 +5,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+:root {
+    --main-color: rgb(114, 6, 24);
+    --secondary-color: pink;
+    --main-text-color: white;
+}
+
 body {
     gap: 10px;
     height: 100%;
@@ -14,8 +20,11 @@ body {
 nav {
     background-color: rgb(201, 152, 160);
     display: flex;
+    width: 100%;
     justify-content: space-between;
     padding: 10px;
+    position: fixed;
+
 }
 
 .linksContainer {
@@ -124,7 +133,7 @@ button:hover {
 }
 
 .cards {
-    background-color: rgb(167, 138, 152);
+    background-color: var(--main-color);
     height: 150%;
     width: 100%;
     display: flex;
@@ -136,7 +145,8 @@ button:hover {
 }
 
 .skillsContainer {
-    background-color: rgb(236, 226, 233);
+
+    background-color: rgb(247, 193, 226);
     height: 50vh;
     padding: 15px;
     gap: 10px;
@@ -153,7 +163,7 @@ button:hover {
 .skillsCardsContainer div {
     height: 40px;
     padding: 10px;
-    background-color: rgb(201, 152, 160);
+    background-color: var(--main-color);
     display: flex;
     align-items: center;
     margin: 10px;
@@ -215,7 +225,6 @@ footer {
     justify-content: space-between;
     padding: 10px;
 }
-
 
 img {
     width: 20px;
