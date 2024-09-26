@@ -84,7 +84,7 @@ section {
 }
 
 .mainButton {
-    background-color: rgb(233, 50, 75);
+    background-color: rgb(189, 65, 81);
     font-family: monospace;
     height: 80px;
     width: 150px;
@@ -135,20 +135,86 @@ button:hover {
     gap: 10px;
 }
 
-
-
-
-.proyects {
-    background-color: gray;
+.skillsContainer {
+    background-color: rgb(236, 226, 233);
+    height: 50vh;
+    padding: 15px;
+    gap: 10px;
 }
 
-.getInTouch {
-    background-color: skyblue;
+.skillsCardsContainer {
+    height: 30vh;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.skillsCardsContainer div {
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(201, 152, 160);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
 
+.proyectsContainer {
+    background-color: white;
+    height: 50vh;
+    padding: 20px;
+}
 
+.getInTouchContainer {
+    background-color: rgb(189, 65, 81);
+    height: 80vh;
+    gap: 20px;
+    padding: 20px;
+}
 
+.mainDivContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contactLogo {
+    gap: 15px;
+    display: flex;
+}
+
+.textContainer {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    font-family: cursive;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: black;
+}
+
+.messageButton {
+    background-color: aquamarine;
+}
+
+.messageButton:hover {
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(201, 152, 160);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
 
 img {
