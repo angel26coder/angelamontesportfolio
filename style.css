@@ -6,8 +6,8 @@
 }
 
 :root {
-    --main-color: rgb(114, 6, 24);
-    --secondary-color: pink;
+    --main-color: rgb(236, 226, 233);
+    --secondary-color: rgb(167, 138, 152);
     --main-text-color: white;
 }
 
@@ -24,7 +24,6 @@ nav {
     justify-content: space-between;
     padding: 10px;
     position: fixed;
-
 }
 
 .linksContainer {
@@ -86,14 +85,14 @@ section {
 }
 
 .aboutMe {
-    background-color: rgb(236, 226, 233);
+    background-color: var(--main-color);
     height: 50vh;
     padding: 30px;
     gap: 30px;
 }
 
 .mainButton {
-    background-color: rgb(189, 65, 81);
+    background-color: rgb(255, 162, 175);
     font-family: monospace;
     height: 80px;
     width: 150px;
@@ -112,6 +111,7 @@ section {
 
 button:hover {
     background-color: white;
+
 }
 
 .educationContainer {
@@ -229,3 +229,5 @@ footer {
 img {
     width: 20px;
 }
+
+rgb(201, 152, 160) rgb(236, 226, 233)
